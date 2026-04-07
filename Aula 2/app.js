@@ -123,7 +123,7 @@ while(contador >= -5){
 }
 let num = 5;
 do{
-    onsole.log("Número é: ", num)
+    console.log("Número é: ", num)
     num --;
 }while(num > 0)
 
