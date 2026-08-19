@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: 0;
 }
+
+:root {
+  --background-color: #ffffff;
+  --color-: #222;
+  --font-family: arial, helvetica, sans-serif;
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--color-);
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
+
+.nav {
+  padding: 0.35rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: #ffffff;
+}
+
+.contentNav {
+  display: flex;
+  gap: 1.5rem;
+}

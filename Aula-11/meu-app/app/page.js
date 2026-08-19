@@ -10,15 +10,22 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <>
+      <div className="nav">
+        <a>FILMA<span>.AI</span></a>
+        <div className="contentNav">
+          <a>Projetos</a>
+          <a>Contato</a>
+        </div>
+      </div>
       <Contador />
-      <br/>
+      <br />
       <CriarNome />
-      <br/>
-      <Relogio/>
-      <br/>
-      <Teclado/>
-      <br/>
-      <Usuarios/>
+      <br />
+      <Relogio />
+      <br />
+      <Teclado />
+      <br />
+      <Usuarios />
     </>
   );
 }
